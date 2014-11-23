@@ -1,6 +1,6 @@
 {
   "name": "musicxml-to-mp3",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convert MusicXML to MP3.",
   "author": "Luke Horvat",
   "license": "MIT",
