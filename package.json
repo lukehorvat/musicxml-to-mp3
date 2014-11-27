@@ -12,6 +12,7 @@
     "url": "https://github.com/lukehorvat/musicxml-to-mp3/issues"
   },
   "main": "./index.js",
+  "bin": "./cli.js",
   "dependencies": {
     "lame": "1.1.1",
     "musicxml-to-pcm": "0.0.1"
@@ -22,6 +23,7 @@
   },
   "keywords": [
     "musicxml",
+    "xml",
     "mp3",
     "pcm",
     "audio",
