@@ -14,7 +14,7 @@
   "main": "./index.js",
   "bin": "./cli.js",
   "dependencies": {
-    "lame": "1.1.1",
+    "lame": "1.2.0",
     "musicxml-to-pcm": "0.0.1"
   },
   "devDependencies": {},
@@ -23,6 +23,7 @@
   },
   "keywords": [
     "musicxml",
+    "music",
     "xml",
     "mp3",
     "pcm",
@@ -30,6 +31,7 @@
     "sound",
     "data",
     "sample",
-    "stream"
+    "stream",
+    "encode"
   ]
 }

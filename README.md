@@ -10,7 +10,7 @@ Install the package with NPM:
 $ npm install -g musicxml-to-mp3
 ```
 
-The `-g` option is recommended for easy CLI usage, but completely optional.
+The `-g` flag is recommended for easy CLI usage, but completely optional.
 
 ## Usage
 
@@ -25,7 +25,7 @@ Or, programmatically interact with its API:
 ```javascript
 var musicXmlToMp3 = require("musicxml-to-mp3");
 
-var stream = musicXmlToMp3.convert("song.xml", "song.mp3"); // It's a Node.js stream!
+var stream = musicXmlToMp3.convert("song.xml", "song.mp3");
 
 stream.on("finish", function() { console.log("Done!"); });
 ```
