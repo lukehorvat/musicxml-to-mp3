@@ -27,7 +27,7 @@ var musicXmlToMp3 = require("musicxml-to-mp3");
 
 var stream = musicXmlToMp3.convert("song.xml", "song.mp3");
 
-stream.on("finish", function() { console.log("Done!"); });
+stream.on("finish", function() { console.log("Done!") });
 ```
 
 ## Related
